@@ -1,0 +1,288 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+.logo{
+   margin: 2px 14px ;
+   display: flex;
+}
+.logo img{
+   width: 88px;
+    height: 73px;
+}
+.logo h1{
+    color: white;
+}
+.logo h1:hover{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+.center{
+    display: flex;
+}
+
+.center a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    padding: 12px;
+    border-radius: 20px;
+    color: white;
+}
+.center a:hover{
+   color: black;
+   background-color: white;
+}
+.right{
+      margin: 10px 25px ;
+}
+.right button{
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: grey;
+}
+.right button:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+.main-2{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 0px 20px ;
+    justify-content: center;
+    align-items: center;
+}
+.main-2::before{
+    content: "";
+    background-image: url(img/egg-net-3545650__480.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+   width: 100%;
+   height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+.btn{
+    font-size: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: grey;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+.main-3{
+   margin-top: 20%;
+  
+}
+.text-2{
+    text-align: center;
+}
+/* .service{
+ display: flex;
+  justify-content: space-around;
+  
+} */
+.Service {
+    display: flex;
+   justify-content: space-around;
+ text-align: center;
+ margin: 10px;
+ 
+}
+ .box{
+    border: 2px solid red;
+    width: 33%;
+}
+.box img{
+  width: 50%;
+  padding: 15px;
+  
+  
+}
+.box-1{
+    border: 2px solid red;
+    width: 33%;
+}
+.box-1 h2{
+    padding: 20px;
+}
+.box-1 img{
+    width: 50%;
+    padding: 15px;
+}
+.box-2{
+    border: 2px solid red;
+    width: 33%;
+
+  
+}
+.box-2 img{
+    width: 50%;
+    padding: 15px;
+}
+.main-4{
+ display: block;
+   
+}
+.main-4 h1{
+    color: black;
+    text-align: center;
+}
+.main-4 h1:hover{
+   color: white;
+   background-color: black;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.part{
+    display: flex;
+    margin: 10px ;
+    text-align: center;
+   
+   
+    
+}
+.part-1{
+    border: 2px solid red;
+   width: 20%;
+}
+.part-1:hover{
+   color: white;
+   background-color: orangered;
+   border-radius: 20px;
+   border: 2px solid black;
+}
+.part-1 img{
+    width: 50%;
+    padding: 10px;
+}
+.part-1 img:hover{
+    border-radius: 50%;
+} 
+.part-2{
+    border: 2px solid red;
+    width: 20%;
+}
+.part-2:hover{
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
+    border: 2px solid black;
+ }
+.part-2 img{
+    width: 50%;
+    padding: 10px;
+}
+.part-2 img:hover{
+    border-radius: 50%;
+} 
+.part-3{
+    border: 2px solid red;
+    width: 20%;
+}
+.part-3:hover{
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
+    border: 2px solid black;
+ }
+.part-3 img{
+    width: 73%;
+    padding: 36px;
+}
+.part-3 img:hover{
+    border-radius: 30%;
+} 
+
+
+.part-4{
+    border: 2px solid red;
+    width: 20%;
+}
+.part-4:hover{
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
+    border: 2px solid black;
+ }
+.part-4 img{
+    width: 41%;
+    padding: 10px;
+}
+.part-4 img:hover{
+    border-radius: 30%;
+} 
+.part-5{
+    border: 2px solid red;
+    width: 20%;
+}
+.part-5:hover{
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
+    border: 2px solid black;
+   
+ }
+.part-5 img{
+    width: 50%;
+    padding: 7%;
+  
+}
+.part-5 img:hover{
+     border-radius: 50%;
+} 
+.main-5{
+  display: block;
+}
+.main-5 h1{
+    text-align: center;
+}
+.section{
+    display: flex;
+}
+.one{
+    width: 20%;
+    border: 2px solid red;
+    display: block;
+    text-align: center;
+}
+.one img{
+    width: 50%;
+    padding: 10px;
+}
+.one .sec-1{
+    padding: 20px;
+}
+.one .sec-3{
+    padding: 20px;
+}
+.one .sec-5{
+    padding: 20px;
+}
+
